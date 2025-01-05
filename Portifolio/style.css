@@ -1,6 +1,6 @@
 :root{
-    --purple:#05b3aa;
-    --purple-light:#023d5f;
+    --purple:#2F192E;
+    --purple-light:#30192d;
     --dark-blue:#012677;
     --blue:#5c65c0;
     --skyblue :#00b4fc;
@@ -134,6 +134,8 @@ body{
     border-radius: 30px;
     margin-top: 1.5rem;
     border:none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 /*****about section ****/
 .about{
@@ -209,4 +211,56 @@ body{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(4,auto);
     }
+}
+
+.skills {
+    padding: 2rem;
+    text-align: center;
+    background-color: #111;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+.skills h1 {
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.skills h1::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -40%;
+    width: 40%;
+    height: 3px;
+    background: linear-gradient(45deg, var(--dark-pink), var(--dark-magenta));
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ddd;
+    transition: transform 0.3s;
+}
+.skill i {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s;
+}
+.skill:hover {
+    transform: scale(1.1);
+}
+.skill i:hover {
+    transform: scale(1.2);
+}
+.skill p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
 }

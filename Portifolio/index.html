@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-   
+    <title>Eduardo Levy - Portfólio</title>
+    <!---external css ---->
     <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
    <div class="container">
        <div class="profile-card"> 
             <div class="profile-pic">
-                <img src="images/Levy.jpeg" alt="user avatar" style=" 
-                    max-width:200px;
-                    max-height:150px;
-                    width: auto;
-                    height: auto;">
+                <img src="images/444062a6-474b-4221-958b-f9aaeba073ab.jpg" alt="user avatar" width="195" height="195">
             </div>
 
             <div class="profile-details">
                  <div class="intro">
                     <h2>Eduardo Levy</h2>
-                    <h4>Programador Back-End</h4>
+                    <h4>Programador</h4>
                     <div class="social">
-                        <a href="https://github.com/EduardoLevy"><i class="fab fa-github" style="color:var(--)"></i></a>
+                        <a href="https://github.com/EduardoLevy"><i class="fab fa-github" style="color:var(--blue)"></i></a>
+                        <a href="mailto:eduardolevy070906@gmail.com"><i class="fa-regular fa-envelope"  style="color:var(--dark-pink)"></i></a>
                         <a href="https://www.linkedin.com/in/eduardo-levy-415b48275/"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
                     </div>
                  </div>
@@ -37,8 +34,8 @@
                             <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
                          </div>
                          <div class="content">
-                            <span></span>
-                            <h5>  +55 (85) 99292-2124</h5>
+                            <span>Phone</span>
+                            <h5>+55 (85) 9922-6208</h5>
                          </div>
                     </div>
 
@@ -47,7 +44,7 @@
                            <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
                         </div>
                         <div class="content">
-                           <span></span>
+                           <span>Email</span>
                            <h5>eduardolevy070906@gmail.com</h5>
                         </div>
                    </div>
@@ -57,43 +54,35 @@
                        <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
                     </div>
                     <div class="content">
-                       <span></span>
-                       <h5>Fortaleza, CE</h5>
+                       <span>Location</span>
+                       <h5>Fortaleza - Ceará</h5>
                     </div>
                  </div>
 
             </div>
-            
-
-            <a href="Curriculo.pdf" download="Curriculo.pdf" title="Clique para baixar">
-                <button class="download-btn">
-                  <i class="fa fa-download"></i> Baixar Curriculo
-                </button>
-              </a>
-              
-              
-        </div>
+            <a href="curriculo/Eduardo Levy Curriculo.pdf" download>
+               <button class="download-btn"> <i class="fa fa-download"></i> Download CV</button>
+             </a>             
+            </div>
        </div>
 
        <!----about section ----->
        <div class="about">
-           <h1>Sobre</h1>
+           <h1>Quem sou eu</h1>
 
-           <p> Sou um Desenvolvedor Backend dedicado a programar sistemas eficientes, confiáveis e de fácil utilização. Minha experiência com diversas linguagens de programação e frameworks me capacita a desenvolver soluções que suportam aplicações web dinâmicas e responsivas.
-          </p>
+           <p>Sou Eduardo Levy, desenvolvedor back-end e entusiasta de tecnologia, apaixonado por resolver problemas complexos e transformá-los em soluções práticas e eficientes. Trabalho com foco em desenvolvimento web e aplicações interativas.</p>
 
-          <p>
-            Meu objetivo é desenvolver automações para otimizar o tempo.
-          </p>
-          <h2>O que sei fazer !!</h2>
-          <div class="work">
+           <p>Tenho experiência em diversas ferramentas e frameworks, como Django, Python, Vue3, Quasar, Flask, FastAPI e Node.js. Utilizo PostgreSQL, MySQL e MongoDB para gerenciar bancos de dados de forma eficiente. Possuo conhecimentos em Git, Docker e CI/CD para entregas ágeis e confiáveis.</p>
+
+           <h2>O que eu Faço</h2>
+           <div class="work">
              <div class="workbox">
                  <div class="icon">
-                    <img src="images/ui.svg" alt="">
+                    <img src="images/web.svg" alt="">
                  </div>
                  <div class="desc">
-                    <h3>Desenvolvedor Backend</h3>
-                    <p>Meu foco é na criação de sistemas backend eficientes e confiáveis, projetados para serem intuitivos e simples de usar. Utilizo uma variedade de linguagens de programação e frameworks para desenvolver aplicações web responsivas e dinâmicas.</p>
+                    <h3>Desenvolvimento Back-End</h3>
+                    <p>Construo sistemas robustos e escaláveis utilizando tecnologias como Django, FastAPI e Flask, com foco em segurança e performance.</p>
                  </div>
              </div>
 
@@ -102,8 +91,8 @@
                    <img src="images/app.svg" alt="">
                 </div>
                 <div class="desc">
-                   <h3>Automações</h3>
-                   <p>Sou especializado em desenvolver automações para otimizar processos e ganhar eficiência.</p>
+                   <h3>Desenvolvimento Front-End</h3>
+                   <p>Crio interfaces dinâmicas e interativas utilizando Vue3, Quasar e boas práticas de design responsivo.</p>
                 </div>
             </div>
 
@@ -112,22 +101,100 @@
                    <img src="images/api.svg" alt="">
                 </div>
                 <div class="desc">
-                   <h3>Desenvolvimento de API</h3>
-                   <p>Faço desenvolvimento de APIs para facilitar a integração de sistemas e o compartilhamento de dados de forma eficiente.</p>
+                   <h3>Desenvolvimento de APIs</h3>
+                   <p>Desenvolvo APIs RESTful e GraphQL utilizando FastAPI e Flask, com foco em integrações eficientes.</p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div claass="icon">
+                   <img src="images/ui.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>Gerenciamento de Bancos de Dados</h3>
+                   <p>Organizo e otimizo bancos relacionais (PostgreSQL, MySQL) e não relacionais (MongoDB) para aplicações escaláveis.</p>
                 </div>
             </div>
 
             <div class="workbox">
                 <div class="icon">
-                   <img src="images/web.svg" alt="">
+                   <img src="images/git.svg" alt="">
                 </div>
                 <div class="desc">
-                   <h3>Desenvolvimento Web</h3>
-                   <p>Sou especializado em desenvolvimento web, criando sites e aplicações que combinam funcionalidade e design intuitivo para proporcionar ótimas experiências de usuário.</p>
+                   <h3>DevOps</h3>
+                   <p>Automatizo pipelines de deploy com Docker, Git e ferramentas de CI/CD para entregas rápidas e seguras.</p>
                 </div>
             </div>
           </div>
        </div>
+       <div class="skills">
+         <h1>Linguagens e Tecnologias</h1>
+         <div class="skills-grid">
+            <div class="skill">
+                <i class="fab fa-python" style="color: var(--light-blue);"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js-square" style="color: yellow;"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-vuejs" style="color: var(--light-green);"></i>
+                <p>Vue.js</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database" style="color: var(--blue);"></i>
+                <p>SQL</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-html5" style="color: var(--dark-pink);"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt" style="color: var(--light-blue);"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-git-alt" style="color: var(--dark-magenta);"></i>
+                <p>Git</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-docker" style="color: var(--skyblue);"></i>
+                <p>Docker</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-gem" style="color: var(--light-purple);"></i>
+                <p>Quasar</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-aws" style="color: var(--light-green);"></i>
+                <p>AWS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-bootstrap" style="color: var(--dark-pink);"></i>
+                <p>Bootstrap</p>
+            </div>
+
+            <div class="skill">
+                <i class="fas fa-cubes" style="color: var(--skyblue);"></i>
+                <p>Webpack</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-node-js" style="color: var(--light-green);"></i>
+                <p>Node.js</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-angular" style="color: var(--dark-pink);"></i>
+                <p>Angular</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react" style="color: var(--light-blue);"></i>
+                <p>React</p>
+            </div>
+
+
+     
+       
    </div>
 </body>
 </html>
