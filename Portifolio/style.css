@@ -9,7 +9,11 @@
     --dark-magenta:#e21b5a;
     --light-green:#61e2c2;
     --light-purple:#d9abff;
-}
+    --python-blue: #3776AB;
+    --git-orange: #F05032;
+    --bootstrap-blue: #0D6EFD;
+    --sql-blue: #005C84;
+}  
 *{
     box-sizing: border-box;
     padding:0;
@@ -18,7 +22,7 @@
     font-family: poppins,sans-serif;
 }
 body{
-    background: linear-gradient(45deg, var(--purple),var(--purple-light));
+    background: linear-gradient(45deg, var(--purple),var(--dark-blue));
 }
 .container{
     display: flex;
@@ -93,12 +97,16 @@ body{
     transform: scale(1.2);
     border:1px solid rgba(255,255,255,0.3);
 }
-.profile-details .contact-info{
-    background-color: #1d1d1d;
-    padding: 15px;
-    border-radius: 10px;
-    width: 100%;
+.profile-details .contact-info {
+  background-color: #1d1d1d;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between rows */
 }
+
 .profile-details .contact-info .row{
     display: flex;
     justify-content: space-between;
