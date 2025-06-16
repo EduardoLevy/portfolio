@@ -33,7 +33,10 @@
 }
 body{
     background: linear-gradient(45deg, var(--purple),var(--dark-blue));
+     overflow-x: hidden;
+     max-width: 100vw;
 }
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -282,6 +285,26 @@ body{
     font-size: 1rem;
     color: #555;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .imagem-perfil {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
 
 </Style>
 <body>
