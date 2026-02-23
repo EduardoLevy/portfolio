@@ -1,0 +1,30 @@
+{
+    "profile": {
+        "role": "Back-End Developer",
+        "phone": "Phone",
+        "email": "Email",
+        "location": "Location",
+        "city": "Fortaleza - Brazil"
+    },
+    "about": {
+        "title": "About Me",
+        "what_i_do": "What I Do",
+        "bio1": "I am Eduardo Levy, a back-end developer and technology enthusiast, passionate about solving complex problems and turning them into practical and efficient solutions. I focus on web development and interactive applications.",
+        "bio2": "I have experience with various tools and frameworks, such as Django, Python, Vue3, Quasar, Flask, FastAPI, and Node.js. I use PostgreSQL, MySQL, and MongoDB to manage databases efficiently. I have knowledge in Git, Docker, and CI/CD for agile and reliable deliveries.",
+        "backend": "Back-End",
+        "backend_desc": "I build robust and scalable systems using technologies like Django, FastAPI, and Flask.",
+        "frontend": "Front-End",
+        "frontend_desc": "I create dynamic and interactive interfaces using Vue3, Quasar, and responsive design best practices.",
+        "apis": "APIs",
+        "apis_desc": "I develop RESTful and GraphQL APIs with a focus on performance and security.",
+        "data": "Data",
+        "data_desc": "I organize and optimize relational and non-relational databases for modern applications."
+    },
+    "projects": {
+        "title": "Selected Projects",
+        "view_repo": "VIEW REPOSITORY"
+    },
+    "skills": {
+        "title": "Technologies"
+    }
+}

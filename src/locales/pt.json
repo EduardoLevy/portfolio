@@ -1,0 +1,30 @@
+{
+    "profile": {
+        "role": "Programador Back-End",
+        "phone": "Telefone",
+        "email": "Email",
+        "location": "Localização",
+        "city": "Fortaleza - Ceará"
+    },
+    "about": {
+        "title": "Quem sou eu",
+        "what_i_do": "O que eu faço",
+        "bio1": "Sou Eduardo Levy, desenvolvedor back-end e entusiasta de tecnologia, apaixonado por resolver problemas complexos e transformá-los em soluções práticas e eficientes. Trabalho com foco em desenvolvimento web e aplicações interativas.",
+        "bio2": "Tenho experiência em diversas ferramentas e frameworks, como Django, Python, Vue3, Quasar, Flask, FastAPI e Node.js. Utilizo PostgreSQL, MySQL e MongoDB para gerenciar bancos de dados de forma eficiente. Possuo conhecimentos em Git, Docker e CI/CD para entregas ágeis e confiáveis.",
+        "backend": "Back-End",
+        "backend_desc": "Construo sistemas robustos e escaláveis utilizando tecnologias como Django, FastAPI e Flask.",
+        "frontend": "Front-End",
+        "frontend_desc": "Crio interfaces dinâmicas e interativas utilizando Vue3, Quasar e boas práticas de design responsivo.",
+        "apis": "APIs",
+        "apis_desc": "Desenvolvo APIs RESTful e GraphQL com foco em performance e segurança.",
+        "data": "Dados",
+        "data_desc": "Organizo e otimizo bancos relacionais e não relacionais para aplicações modernas."
+    },
+    "projects": {
+        "title": "Projetos Selecionados",
+        "view_repo": "VER REPOSITÓRIO"
+    },
+    "skills": {
+        "title": "Tecnologias"
+    }
+}
